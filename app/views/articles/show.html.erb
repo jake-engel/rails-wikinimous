@@ -1,0 +1,20 @@
+<h2>Article Details </h2>
+
+<p>
+  <strong>Name:</strong> <%= @article.title %>
+</p>
+<p> <strong>Content:</strong>
+  <%= @article.content %>
+</p>
+<p>
+  <strong>
+    Created at: <%= @article.created_at %>
+  </strong>
+</p>
+<p>
+  <strong>
+    Last Updated at: <%= @article.updated_at %>
+  </strong>
+</p>
+
+<%= link_to 'Homepage', articles_path %>
